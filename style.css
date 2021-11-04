@@ -30,14 +30,22 @@
     position: absolute;
     width: 377px;
     height: 32px;
-    left: 878px;
+    left: 925px;
     top: 208px;
     color: #3059A8;
+}
+.h4{
+    position: absolute;
+    width: 424px;
+    height: 138px;
+    left: 855px;
+    top: 708px;
+    color: #000000;
 }
 .img{
     position: absolute;
     width: 645px;
     height: 916px;
     left: 57px;
-    top: 1px;
+    top: 45px;
 }
