@@ -1,0 +1,49 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:#ffffff;
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Frame-14{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:917px;
+  margin-top:53px;
+  margin-bottom:54px;
+  min-height:917px;
+  content:url(assets/images/Frame_14.png);
+}
+.Frame-14-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
